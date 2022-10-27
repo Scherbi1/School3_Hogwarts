@@ -52,10 +52,9 @@ public class Faculty {
 
     @Override
     public String toString() {
-        return "Faculty{" +
+        return "Факультет " +
                 "id=" + id +
-                ", name='" + name + '\'' +
-                ", color='" + color + '\'' +
-                '}';
+                ". Название - " + name  +
+                ". Цвет - " + color ;
     }
 }
